@@ -1,0 +1,21 @@
+{
+  "outPath": "./learning-session-delphai-cli.mkv",
+  "keepSourceAudio": true,
+  "clips": [
+    {
+      "layers": [
+        {
+          "type": "video",
+          "path": "./recording.mkv"
+        },
+        {
+          "type": "image-overlay",
+          "path": "./fail.jpg",
+          "start": 1535,
+          "stop": 1545,
+          "height": 0.95
+        }
+      ]
+    }
+  ]
+}
